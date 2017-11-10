@@ -1,9 +1,4 @@
 
-  Theme Name: Imperial
-  Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-template/
-  Author: BootstrapMade
-  Author URL: https://bootstrapmade.com
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -234,7 +229,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fbdf4', end
 }
 
 .is-sticky #header {
-  background: #36d0ec;
+  background: rgba(159,189,244,1);
+background: -moz-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(159,189,244,1)), color-stop(22%, rgba(143,193,214,1)), color-stop(42%, rgba(229,164,118,1)), color-stop(64%, rgba(68,106,121,1)), color-stop(83%, rgba(69,98,165,1)), color-stop(100%, rgba(213,149,205,1)));
+background: -webkit-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: -o-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: -ms-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: linear-gradient(to right, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fbdf4', endColorstr='#d595cd', GradientType=1 );
+
 }
 
 /*--------------------------------------------------------------
@@ -868,7 +871,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #36d0ec;
+  background: rgba(159,189,244,1);
+background: -moz-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(159,189,244,1)), color-stop(22%, rgba(143,193,214,1)), color-stop(42%, rgba(229,164,118,1)), color-stop(64%, rgba(68,106,121,1)), color-stop(83%, rgba(69,98,165,1)), color-stop(100%, rgba(213,149,205,1)));
+background: -webkit-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: -o-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: -ms-linear-gradient(left, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+background: linear-gradient(to right, rgba(159,189,244,1) 0%, rgba(143,193,214,1) 22%, rgba(229,164,118,1) 42%, rgba(68,106,121,1) 64%, rgba(69,98,165,1) 83%, rgba(213,149,205,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fbdf4', endColorstr='#d595cd', GradientType=1 );
+
   padding: 30px 0;
   color: #fff;
 }
