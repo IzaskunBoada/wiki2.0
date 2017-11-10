@@ -181,9 +181,17 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #b9b4b4;
+
   padding: 20px 0;
   height: 90px;
+background: rgba(94,144,236,1);
+background: -moz-linear-gradient(left, rgba(94,144,236,1) 0%, rgba(94,165,195,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(94,144,236,1)), color-stop(100%, rgba(94,165,195,1)));
+background: -webkit-linear-gradient(left, rgba(94,144,236,1) 0%, rgba(94,165,195,1) 100%);
+background: -o-linear-gradient(left, rgba(94,144,236,1) 0%, rgba(94,165,195,1) 100%);
+background: -ms-linear-gradient(left, rgba(94,144,236,1) 0%, rgba(94,165,195,1) 100%);
+background: linear-gradient(to right, rgba(94,144,236,1) 0%, rgba(94,165,195,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e90ec', endColorstr='#5ea5c3', GradientType=1 );
 }
 
 #header #logo {

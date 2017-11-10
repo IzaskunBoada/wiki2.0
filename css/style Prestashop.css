@@ -181,9 +181,19 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #42e17c;
   padding: 20px 0;
   height: 90px;
+background: rgba(51,84,133,1);
+background: -moz-linear-gradient(left, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,84,133,1)), color-stop(100%, rgba(201,100,177,1)));
+background: -webkit-linear-gradient(left, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+background: -o-linear-gradient(left, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+background: -ms-linear-gradient(left, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+background: linear-gradient(to right, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#335485', endColorstr='#c964b1', GradientType=1 );rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+background: -ms-linear-gradient(left, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+background: linear-gradient(to right, rgba(51,84,133,1) 0%, rgba(201,100,177,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#335485', endColorstr='#c964b1', GradientType=1 );
 }
 
 #header #logo {
